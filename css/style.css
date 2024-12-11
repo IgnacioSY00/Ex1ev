@@ -143,19 +143,23 @@ si column = centrado horizontalmente */
 
 /* Reglas comunes botones */
 .btn {
-/*
-    border: 0;
-    width: 70%;
+    border-width: 1px;
+    width: 100%;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 4px;
     font-size: 14px;
-    font-weight: bold;*/
+    font-weight: bold;
+    color: #cecece;
+    border-color: #dbdbdb;
 }
 
 /* Reglas específicas botón azul */
 .btn-blue {
-/*    background-color: #304a70;
-    color: white;*/
+    background-color: #3173e4;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    margin-bottom: 20px;
 }
 
 /* Reglas para las cajas de formularios */
@@ -174,7 +178,7 @@ si column = centrado horizontalmente */
 
 .col-l{
     width: 40%;
-    background-color: black;
+    background-color: #e6e7e9;
     margin: 0;
     padding: 0;
     float: left;
@@ -187,4 +191,111 @@ si column = centrado horizontalmente */
     margin: 0;
     padding: 0;
     height: 100%;
+}
+.form{
+    margin: auto auto;
+    width: 40%;
+
+}
+a{
+    text-decoration: none;
+    color: #4b76c2;
+}
+.personas{
+    width: 80%;
+    margin: auto auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 100px;
+    height: 25px;
+    margin: auto 0;
+    margin-left: 5%;
+}
+.hed-l{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.hed-r{
+    display: flex;
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+.heda{
+    width: 100%;
+    margin: auto 0;
+    margin-right: 5%;
+    text-align: end;
+}
+.mg{
+    margin-left: 20px;
+}
+.zzz{
+    background-color: red;
+}
+h1{
+    font-size: 40px;
+}
+.enlaces{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.enl{
+    display: flex;
+    float: right;
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    text-align:start;
+}
+.enr{
+    display: flex;
+    float: right;
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    text-align: end;
+}
+.l{
+    width: 100%;
+}
+.r{
+    width: 100%;
+}
+.btn-lg{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #e8e8e8;
+    font-size: 15px;
+    margin: 0 auto;
+    border-width: 1px;
+    border-style:solid;
+    justify-content: space-around;
+    display: flex;
+}
+.apple{
+    width: 100%;
+    
+}
+.gg{
+    margin-top: 5px;
+}
+.lg{
+    width: 25px;
+    height: 25px;
+    margin: auto auto;
+}
+.lg-n{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
